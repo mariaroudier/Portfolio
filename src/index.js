@@ -9,7 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="http://localhost:3000/portfolio/" element={<Home />} />
+      {/* <Home /> */}
+      <Route path="portfolio/" element={<Home />} />
       {/* <Route path="/employee-list" element={<ListOfEmployees />} /> */}
     </Routes>
   </ BrowserRouter>
