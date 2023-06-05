@@ -2,7 +2,7 @@
 
 function Skill({text}){
       return (
-            <div className="skills_skill">{text}</div>
+            <div className="skills_skill" >{text}</div>
       )
 }
 

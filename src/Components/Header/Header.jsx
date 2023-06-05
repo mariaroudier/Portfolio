@@ -1,24 +1,67 @@
 import React, { useState } from 'react';
-
+import { Link, animateScroll as scroll } from "react-scroll";
+import logo from './logo.jpg'
 
 function Header(){
       return (
       <div className='header'>
             <div className='header_logo-box'>
-                  <img />
+                  <img className='logo' src={logo} />
                   <span>MARIA ROUDIER</span>
             </div>
-            <div className='header_links'>
-                  <a className='header_link' href='#about'>ABOUT</a>
-                  <a className='header_link' href="#projects">PROJECTS</a>
-                  <a className='header_link' href='#contact'>CONTACT</a>
-            </div>
+            <nav className='header_links'>
+                  <li><Link className='header_link' to="about"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-30}
+                        duration={800}>
+                        ABOUT
+                  </Link></li>
+                  <li><Link className='header_link' to="projects"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={800}>
+                        PROJECTS
+                  </Link></li>
+                  <li><Link className='header_link' to="contact"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={800}>
+                        CONTACT
+                  </Link></li>
+            </nav>
             <div className='header_mob-nav'>
-                  <div className='header_mob-nav-links'>
-                        <a className='header_link' href='#about'>ABOUT</a>
-                        <a className='header_link' href="#projects">PROJECTS</a>
-                        <a className='header_link' href='#contact'>CONTACT</a>
-                  </div>
+                  <nav className='header_mob-nav-links'>
+                  <li><Link className='header_link' to="about"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={800}>
+                        ABOUT
+                  </Link></li>
+                  <li><Link className='header_link' to="projects"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={800}>
+                        PROJECTS
+                  </Link></li>
+                  <li><Link className='header_link' to="contact"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={800}>
+                        CONTACT
+                  </Link></li>
+                  </nav>
             </div>
       </div>
       )
