@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import logo from './logo.jpg'
+import logo from '../../assets/img/logo.png'
 
 function Header(){
       return (
       <div className='header'>
             <div className='header_logo-box'>
-                  <img className='logo' src={logo} />
+                  <img className='logo' src={logo} alt='logo'/>
                   <span>MARIA ROUDIER</span>
             </div>
             <nav className='header_links'>

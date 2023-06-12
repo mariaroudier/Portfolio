@@ -3,7 +3,6 @@ import Slideshow from '../Slideshow/Slideshow'
 import Skill from '../Skill/Skill'
 
 function Lightbox({ lightbox, images, closeModal, title, tools }) {
-console.log(lightbox)
       return (
             <div className={lightbox === true ? 'modal-wrapper-show' : 'modal-wrapper'} >
                   <div className='lightbox'>

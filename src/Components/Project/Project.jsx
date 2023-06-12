@@ -9,12 +9,12 @@ function Project({ title, description,image, images, tools, url }){
             setLightbox(false)
             return lightBox
       }
-      console.log(lightBox)
+
       return (
             <>
                   <div className='project'>
                         <div className='img-project_box'>
-                              <img className='img-project' src={image}></img>
+                              <img className='img-project' src={image} alt={title}></img>
                         </div>
                         <div className='project_text'>
                               <h3 className='heading-third'>{title}</h3>
