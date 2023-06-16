@@ -22,6 +22,8 @@ return(
             <a href="https://www.flaticon.com/free-icons/next" title="next icons" className='link-rights'>Next icons created by Fathema Khanom - Flaticon</a>
             <a href="https://www.flaticon.com/free-icons/ui" title="ui icons"className='link-rights'>Ui icons created by Fathema Khanom - Flaticon</a>
             <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" className='link-rights'>Linkedin icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons" className='link-rights'>Hamburger icons created by Lizel Arina - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/close" title="close icons" className='link-rights'>Close icons created by Pixel perfect - Flaticon</a>
       </div>
 )
 }

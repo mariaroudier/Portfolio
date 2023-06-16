@@ -9,7 +9,6 @@ import Project from '../../Components/Project/Project'
 import Vanta from '../../Components/Vanta/Vanta'
 
 import { devSkills, desSkills, projects } from '../../data/data';
-import { RoudierCv } from '../../assets/index'
 
 function Home(){
       return (
@@ -99,7 +98,8 @@ function Home(){
                         <span className='text-centered_small'>mariaroudier@gmail.com</span>
                         <span className='text-centered_small'>+330774849422</span>
                         <div className='btn'>
-                              <a className='link' href="/portfolio/static/media/Roudier_Maria_cv.0cdb13011640721b18f7.pdf" download>DOWNLOAD CV</a>
+                              {/* <a className='link' href="/portfolio/static/media/Roudier_Maria_cv.0cdb13011640721b18f7.pdf" download>DOWNLOAD CV</a> */}
+                              <a className='link' href="/static/media/Roudier_Maria_cv.0cdb13011640721b18f7.pdf" download>DOWNLOAD CV</a>
                         </div>
                   </div>
             </section>

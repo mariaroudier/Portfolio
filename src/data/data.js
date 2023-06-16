@@ -93,7 +93,7 @@ export const projects = [
             name: "SportSee",
             cover: Sportsee00,
             images: [Sportsee00],
-            description: "Developing advanced graphical elements using Recharts and producing technical documentation",
+            description: "Developing advanced graphical elements using Recharts and producing technical documentation.",
             tools: ["HTML", "CSS", "JavaScript", "React", "Recharts"],
             repo: "https://github.com/mariaroudier/P11-SportSee-front-end-dashboard"
       },
@@ -101,7 +101,7 @@ export const projects = [
             name: "Argent Bank",
             cover: Argentbank00,
             images: [Argentbank01, Argentbank02, Argentbank03],
-            description: "Developing a responsive React web application using Redux for manage the state of the personal account of the banking application and creating a document describing the API for the transactions",
+            description: "Developing a responsive React web application using Redux for manage the state of the personal account of the banking application and creating a document describing the API for the transactions.",
             tools: ["HTML", "CSS", "JavaScript", "React", "Redux", "Swagger"],
             repo: "https://github.com/mariaroudier/Bank-user-s-account"
       },
